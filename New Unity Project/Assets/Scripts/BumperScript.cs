@@ -5,13 +5,9 @@ public class BumperScript : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("You Lose!!!");
-            Application.LoadLevel("MainScene");
-        }
-
-        if (other.gameObject.transform.parent)
+		Debug.Log("WE'RE COLLIDING!!!!");
+		
+        if (gameObject.CompareTag("car"))
             Destroy(other.gameObject.transform.parent.gameObject);
         else
             Destroy(other.gameObject);
