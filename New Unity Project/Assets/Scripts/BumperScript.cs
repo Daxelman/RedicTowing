@@ -7,7 +7,7 @@ public class BumperScript : MonoBehaviour {
     {
 		Debug.Log("WE'RE COLLIDING!!!!");
 		
-        if (gameObject.CompareTag("car"))
+        if (gameObject.CompareTag("Car"))
             Destroy(other.gameObject.transform.parent.gameObject);
         else
             Destroy(other.gameObject);
