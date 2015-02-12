@@ -17,6 +17,7 @@ public class SpawnScript : MonoBehaviour {
     {
         GameObject myObj = (GameObject)(Instantiate(obj, transform.position, Quaternion.identity));
         myObj.transform.parent = parent.transform;
+        myObj.tag = "Car";
         Invoke("spawn", Random.Range(spawnmin, spawnmax));
     }
 }

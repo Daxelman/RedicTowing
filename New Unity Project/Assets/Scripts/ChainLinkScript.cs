@@ -3,11 +3,7 @@ using System.Collections.Generic;
 
 public class ChainLinkScript : MonoBehaviour {
 
-    
-
-    //reference to the tow truck
-    public GameObject TowTruck;
-
+ 
     //list of cars added to truck
     public List<GameObject> cars;
 
@@ -27,16 +23,30 @@ public class ChainLinkScript : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
         
-
-        if (gameObject.CompareTag("Car"))
+        if (cars.Count <= 0)
         {
-            if (cars.Count <= 0)
-            {
-                TowTruck.AddComponent<Rigidbody2D>().hingeJoint.connectedBody = gameObject.rigidbody;
-
-            }
+            cars.Add(other.gameObject);
+            HingeJoint2D hj = this.gameObject.AddComponent<HingeJoint2D>();
+            this.gameObject.hingeJoint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
+            this.gameObject.hingeJoint.useLimits = true;
+            this.gameObject.hingeJoint.limits.min.Equals(-15.0f);
+            this.gameObject.hingeJoint.limits.max.Equals(15.0f);
+        }
+        else
+        {
+            cars.Add(other.gameObject);
+            /*HingeJoint2D hj = cars[cars.Capacity].gameObject.AddComponent<HingeJoint2D>();
+            cars[cars.Capacity].gameObject.hingeJoint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
+            cars[cars.Capacity].gameObject.hingeJoint.useLimits = true;
+            cars[cars.Capacity].gameObject.hingeJoint.limits.min.Equals(-15.0f);
+            cars[cars.Capacity].gameObject.hingeJoint.limits.max.Equals(15.0f);
+             */
+            Debug.Log("WE LINKED!!!!");
         }
         Debug.Log("WE LINKED!!!!");
+
+        
     }
 }
