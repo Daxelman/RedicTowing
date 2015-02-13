@@ -24,25 +24,30 @@ public class ChainLinkScript : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        
+        GameObject car = other.gameObject;
+        HingeJoint2D hj;
         if (cars.Count <= 0)
         {
-            cars.Add(other.gameObject);
-            HingeJoint2D hj = this.gameObject.AddComponent<HingeJoint2D>();
-            this.gameObject.hingeJoint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
-            this.gameObject.hingeJoint.useLimits = true;
-            this.gameObject.hingeJoint.limits.min.Equals(-15.0f);
-            this.gameObject.hingeJoint.limits.max.Equals(15.0f);
+            hj = gameObject.AddComponent<HingeJoint2D>();     //add the hinge joint to the car
+            hj.useLimits = true;        //limit the swing angle of the joint
+            hj.anchor = new Vector3(0f, -.45f, 0f);
+            hj.limits.min.Equals(-15.0f);   //min limit
+            hj.limits.max.Equals(15.0f);    //max limit
+            hj.connectedBody = car.GetComponent<Rigidbody2D>(); //add the car to to the hinge joint
+            car.layer = gameObject.layer;
+            cars.Add(car);  //add car to list
         }
         else
         {
-            cars.Add(other.gameObject);
-            /*HingeJoint2D hj = cars[cars.Capacity].gameObject.AddComponent<HingeJoint2D>();
-            cars[cars.Capacity].gameObject.hingeJoint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
-            cars[cars.Capacity].gameObject.hingeJoint.useLimits = true;
-            cars[cars.Capacity].gameObject.hingeJoint.limits.min.Equals(-15.0f);
-            cars[cars.Capacity].gameObject.hingeJoint.limits.max.Equals(15.0f);
-             */
+            GameObject carJoint = cars[cars.Count - 1];
+            hj = carJoint.AddComponent<HingeJoint2D>();
+            hj.useLimits = true;        //limit the swing angle of the joint
+            hj.anchor = new Vector3(0f, -.45f, 0f);
+            hj.limits.min.Equals(-15.0f);   //min limit
+            hj.limits.max.Equals(15.0f);    //max limit
+            hj.connectedBody = car.GetComponent<Rigidbody2D>(); //add the car to to the hinge joint
+            car.layer = gameObject.layer;
+            cars.Add(car);  //add the car to the list
             Debug.Log("WE LINKED!!!!");
         }
         Debug.Log("WE LINKED!!!!");
