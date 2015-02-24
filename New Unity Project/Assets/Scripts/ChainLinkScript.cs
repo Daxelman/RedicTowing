@@ -30,7 +30,7 @@ public class ChainLinkScript : MonoBehaviour {
         {
             hj = gameObject.AddComponent<HingeJoint2D>();     //add the hinge joint to the car
             hj.useLimits = true;        //limit the swing angle of the joint
-            hj.anchor = new Vector3(0f, -.45f, 0f);
+            hj.anchor = new Vector3(0f, -.25f, 0f);
             hj.limits.min.Equals(-15.0f);   //min limit
             hj.limits.max.Equals(15.0f);    //max limit
             hj.connectedBody = car.GetComponent<Rigidbody2D>(); //add the car to to the hinge joint
@@ -42,7 +42,7 @@ public class ChainLinkScript : MonoBehaviour {
             GameObject carJoint = cars[cars.Count - 1];
             hj = carJoint.AddComponent<HingeJoint2D>();
             hj.useLimits = true;        //limit the swing angle of the joint
-            hj.anchor = new Vector3(0f, -.15f, 0f);
+            hj.anchor = new Vector3(0f, -.25f, 0f);
             hj.limits.min.Equals(-15.0f);   //min limit
             hj.limits.max.Equals(15.0f);    //max limit
             hj.connectedBody = car.GetComponent<Rigidbody2D>(); //add the car to to the hinge joint
