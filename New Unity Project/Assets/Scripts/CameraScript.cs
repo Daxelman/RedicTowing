@@ -17,9 +17,9 @@ public class CameraScript : MonoBehaviour {
         if (currentNumCars >= 3)
         {
             if (previousNumCars < currentNumCars) //if cars where added last time
-                camera.orthographicSize++;
+                GetComponent<Camera>().orthographicSize++;
             if (previousNumCars > currentNumCars)
-                camera.orthographicSize--;
+                GetComponent<Camera>().orthographicSize--;
         }
 
         previousNumCars = currentNumCars;

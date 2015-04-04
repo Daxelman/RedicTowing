@@ -13,14 +13,10 @@ public class ChainLinkScript : MonoBehaviour {
         //initalize the list
         cars = new List<GameObject>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-
-    }
-
+    /// <summary>
+    /// Addes cars to the back of the tow truck via chain link
+    /// </summary>
+    /// <param name="other"></param>
     void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -48,10 +44,24 @@ public class ChainLinkScript : MonoBehaviour {
             hj.connectedBody = car.GetComponent<Rigidbody2D>(); //add the car to to the hinge joint
             car.layer = gameObject.layer;
             cars.Add(car);  //add the car to the list
-            Debug.Log("WE LINKED!!!!");
+            //Debug.Log("WE LINKED!!!!");
         }
-        Debug.Log("WE LINKED!!!!");
+        //Debug.Log("WE LINKED!!!!");
+    }
+    /// <summary>
+    /// removes a car from the back of the list if possible
+    /// </summary>
+    void removeBackCar()
+    {
+        if (cars.Count > 0)
+        {
+            //remove the hingejoint from the connecting cars (count - 2)
+            Destroy(cars[cars.Count - 2].GetComponent<HingeJoint2D>());
 
-        
+            //remove
+
+            //then destory the removed car
+           
+        }
     }
 }

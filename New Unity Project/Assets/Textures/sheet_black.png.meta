@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: 3145eea4f21dc07479e465743be693d1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: carBlack1_000.png
+    21300002: carBlack1_001.png
+    21300004: carBlack1_002.png
+    21300006: carBlack1_003.png
+    21300008: carBlack1_004.png
+    21300010: carBlack1_005.png
+    21300012: carBlack1_006.png
+    21300014: carBlack1_007.png
+    21300016: carBlack1_008.png
+    21300018: carBlack1_009.png
+    21300020: carBlack1_010.png
+    21300022: carBlack1_011.png
+    21300024: carBlack1_012.png
+    21300026: carBlack1_013.png
+    21300028: carBlack1_014.png
+    21300030: carBlack1_015.png
+    21300032: carBlack2_000.png
+    21300034: carBlack2_001.png
+    21300036: carBlack2_002.png
+    21300038: carBlack2_003.png
+    21300040: carBlack2_004.png
+    21300042: carBlack2_005.png
+    21300044: carBlack2_006.png
+    21300046: carBlack2_007.png
+    21300048: carBlack2_008.png
+    21300050: carBlack2_009.png
+    21300052: carBlack2_010.png
+    21300054: carBlack2_011.png
+    21300056: carBlack2_012.png
+    21300058: carBlack2_013.png
+    21300060: carBlack2_014.png
+    21300062: carBlack2_015.png
+    21300064: carBlack3_000.png
+    21300066: carBlack3_001.png
+    21300068: carBlack3_002.png
+    21300070: carBlack3_003.png
+    21300072: carBlack3_004.png
+    21300074: carBlack3_005.png
+    21300076: carBlack3_006.png
+    21300078: carBlack3_007.png
+    21300080: carBlack3_008.png
+    21300082: carBlack3_009.png
+    21300084: carBlack3_010.png
+    21300086: carBlack3_011.png
+    21300088: carBlack3_012.png
+    21300090: carBlack3_013.png
+    21300092: carBlack3_014.png
+    21300094: carBlack3_015.png
+    21300096: carBlack4_000.png
+    21300098: carBlack4_001.png
+    21300100: carBlack4_002.png
+    21300102: carBlack4_003.png
+    21300104: carBlack4_004.png
+    21300106: carBlack4_005.png
+    21300108: carBlack4_006.png
+    21300110: carBlack4_007.png
+    21300112: carBlack4_008.png
+    21300114: carBlack4_009.png
+    21300116: carBlack4_010.png
+    21300118: carBlack4_011.png
+    21300120: carBlack4_012.png
+    21300122: carBlack4_013.png
+    21300124: carBlack4_014.png
+    21300126: carBlack4_015.png
+    21300128: carBlack5_000.png
+    21300130: carBlack5_001.png
+    21300132: carBlack5_002.png
+    21300134: carBlack5_003.png
+    21300136: carBlack5_004.png
+    21300138: carBlack5_005.png
+    21300140: carBlack5_006.png
+    21300142: carBlack5_007.png
+    21300144: carBlack5_008.png
+    21300146: carBlack5_009.png
+    21300148: carBlack5_010.png
+    21300150: carBlack5_011.png
+    21300152: carBlack5_012.png
+    21300154: carBlack5_013.png
+    21300156: carBlack5_014.png
+    21300158: carBlack5_015.png
+    21300160: carBlack6_000.png
+    21300162: carBlack6_001.png
+    21300164: carBlack6_002.png
+    21300166: carBlack6_003.png
+    21300168: carBlack6_004.png
+    21300170: carBlack6_005.png
+    21300172: carBlack6_006.png
+    21300174: carBlack6_007.png
+    21300176: carBlack6_008.png
+    21300178: carBlack6_009.png
+    21300180: carBlack6_010.png
+    21300182: carBlack6_011.png
+    21300184: carBlack6_012.png
+    21300186: carBlack6_013.png
+    21300188: carBlack6_014.png
+    21300190: carBlack6_015.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: carBlack1_000.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 316
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_001.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 420
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_002.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 433
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_003.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_004.png
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 460
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_005.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 444
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_006.png
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 98
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_007.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_008.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 467
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_009.png
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 123
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_010.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 282
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_011.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 348
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_012.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_013.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 197
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_014.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 305
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack1_015.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 273
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_000.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 327
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_001.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 349
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_002.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_003.png
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 398
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_004.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 257
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_005.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 228
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_006.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 490
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_007.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 105
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_008.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 203
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_009.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 342
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_010.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 174
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_011.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 28
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_012.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 198
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_013.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 302
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_014.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 251
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack2_015.png
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 482
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_000.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 378
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_001.png
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 408
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_002.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 202
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_003.png
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 21
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_004.png
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 46
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_005.png
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 75
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_006.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 151
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_007.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_008.png
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 154
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_009.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 58
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_010.png
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 482
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_011.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 181
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_012.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 396
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_013.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 393
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_014.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 264
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack3_015.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 294
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_000.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_001.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_002.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 367
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_003.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 324
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_004.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 415
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_005.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_006.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_007.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_008.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_009.png
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 116
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_010.png
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 460
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_011.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 220
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_012.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 332
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_013.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 255
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_014.png
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 408
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack4_015.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_000.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 168
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_001.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_002.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 279
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_003.png
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 488
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_004.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_005.png
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_006.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 81
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_007.png
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_008.png
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 38
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_009.png
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_010.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 114
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_011.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 146
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_012.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 372
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_013.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 375
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_014.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack5_015.png
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 466
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_000.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_001.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_002.png
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 370
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_003.png
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 86
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_004.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_005.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_006.png
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 142
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_007.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_008.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_009.png
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 88
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_010.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 229
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_011.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 461
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_012.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 225
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_013.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_014.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 361
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: carBlack6_015.png
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 441
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

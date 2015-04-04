@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 85db0fb358fd56f46ae5c5b0ed951c43
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet_utility_0
+    21300002: ambulance_E.png
+    21300004: ambulance_N.png
+    21300006: ambulance_NE.png
+    21300008: ambulance_NED.png
+    21300010: ambulance_NEU.png
+    21300012: ambulance_NW.png
+    21300014: ambulance_NWD.png
+    21300016: ambulance_NWU.png
+    21300018: ambulance_S.png
+    21300020: ambulance_SE.png
+    21300022: ambulance_SED.png
+    21300024: ambulance_SEU.png
+    21300026: ambulance_SW.png
+    21300028: ambulance_SWD.png
+    21300030: ambulance_SWU.png
+    21300032: ambulance_W.png
+    21300034: garbage_E.png
+    21300036: garbage_N.png
+    21300038: garbage_NE.png
+    21300040: garbage_NED.png
+    21300042: garbage_NEU.png
+    21300044: garbage_NW.png
+    21300046: garbage_NWD.png
+    21300048: garbage_NWU.png
+    21300050: garbage_S.png
+    21300052: garbage_SE.png
+    21300054: garbage_SED.png
+    21300056: garbage_SEU.png
+    21300058: garbage_SW.png
+    21300060: garbage_SWD.png
+    21300062: garbage_SWU.png
+    21300064: garbage_W.png
+    21300066: police_E.png
+    21300068: police_N.png
+    21300070: police_NE.png
+    21300072: police_NED.png
+    21300074: police_NEU.png
+    21300076: police_NW.png
+    21300078: police_NWD.png
+    21300080: police_NWU.png
+    21300082: police_S.png
+    21300084: police_SE.png
+    21300086: police_SED.png
+    21300088: police_SEU.png
+    21300090: police_SW.png
+    21300092: police_SWD.png
+    21300094: police_SWU.png
+    21300096: police_W.png
+    21300098: taxi_E.png
+    21300100: taxi_N.png
+    21300102: taxi_NE.png
+    21300104: taxi_NED.png
+    21300106: taxi_NEU.png
+    21300108: taxi_NW.png
+    21300110: taxi_NWD.png
+    21300112: taxi_NWU.png
+    21300114: taxi_S.png
+    21300116: taxi_SE.png
+    21300118: taxi_SED.png
+    21300120: taxi_SEU.png
+    21300122: taxi_SW.png
+    21300124: taxi_SWD.png
+    21300126: taxi_SWU.png
+    21300128: taxi_W.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ambulance_E.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 34
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_N.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 23
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_NE.png
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 47
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_NED.png
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 78
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_NEU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_NW.png
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 106
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_NWD.png
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 188
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_NWU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_S.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 50
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_SE.png
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 185
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_SED.png
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 216
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_SEU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_SW.png
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 220
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_SWD.png
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 145
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_SWU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ambulance_W.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 175
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_E.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 146
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_N.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 203
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_NE.png
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_NED.png
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 20
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_NEU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_NW.png
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 15
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_NWD.png
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 160
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_NWU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_S.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 53
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_SE.png
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 79
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_SED.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 81
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_SEU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_SW.png
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_SWD.png
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 11
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_SWU.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: garbage_W.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 204
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_E.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 159
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_N.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 155
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_NE.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 180
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_NED.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 181
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_NEU.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 150
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_NW.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 229
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_NWD.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 206
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_NWU.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 51
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_S.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 179
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_SE.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 43
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_SED.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 118
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_SEU.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 233
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_SW.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 205
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_SWD.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 118
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_SWU.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 232
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_W.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 206
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_E.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 183
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_N.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 132
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_NE.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 9
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_NED.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 83
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_NEU.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 93
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_NW.png
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 9
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_NWD.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 96
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_NWU.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 63
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_S.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 109
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_SE.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 70
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_SED.png
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 150
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_SEU.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 123
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_SW.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 230
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_SWD.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_SWU.png
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 21
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: taxi_W.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 105
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

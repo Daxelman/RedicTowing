@@ -34,7 +34,7 @@ public class ScrollingScript : MonoBehaviour {
                 Transform child = transform.GetChild(i);
                 
                 //add only the visible children
-                if (child.renderer != null)
+                if (child.GetComponent<Renderer>() != null)
                 {
                     backgroundPart.Add(child);
                 }
@@ -86,12 +86,12 @@ public class ScrollingScript : MonoBehaviour {
                     // If the child is already on the left of the camera,
                     // we test if it's completely outside and needs to be
                     // recycled.
-                    if (firstChild.renderer.IsVisibleFrom(Camera.main) == false)
+                    if (firstChild.GetComponent<Renderer>().IsVisibleFrom(Camera.main) == false)
                     {
                         // Get the last child position.
                         Transform lastChild = backgroundPart.LastOrDefault();
                         Vector3 lastPosition = lastChild.transform.position;
-                        Vector3 lastSize = (lastChild.renderer.bounds.max - lastChild.renderer.bounds.min);
+                        Vector3 lastSize = (lastChild.GetComponent<Renderer>().bounds.max - lastChild.GetComponent<Renderer>().bounds.min);
 
                         // Set the position of the recyled one to be AFTER
                         // the last child.
