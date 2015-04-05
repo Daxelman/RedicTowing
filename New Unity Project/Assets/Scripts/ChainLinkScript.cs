@@ -55,13 +55,11 @@ public class ChainLinkScript : MonoBehaviour {
     {
         if (cars.Count > 0)
         {
-            //remove the hingejoint from the connecting cars (count - 2)
-            Destroy(cars[cars.Count - 2].GetComponent<HingeJoint2D>());
+            Destroy(cars[cars.Count - 1]); //destroy the last object in the cars array
+            cars.RemoveAt(cars.Count - 1); //remove the reference from the list as well
 
-            //remove
-
-            //then destory the removed car
-           
+            //clean up the old hingejoint as well
+            Destroy(cars[cars.Count - 1].GetComponent<HingeJoint2D>());
         }
     }
 }
