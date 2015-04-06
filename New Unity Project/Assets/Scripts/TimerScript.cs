@@ -21,21 +21,15 @@ public class TimerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        while(timerActive)
-        {
-            if (timeLimit > 0)
-            {
-                timeLimit -= Time.deltaTime; //countdown
-                text.text = "Time: " + timeLimit;
-            }
-            else if (timeLimit <= 0)
+            timeLimit -= Time.deltaTime;
+            Debug.Log(timeLimit);
+            text.text = "Time: " + timeLimit;
+            if (timeLimit <= 0)
             {
                 cycle++; //time has cycled
-                timerActive = false; //set the timer off
+                timerActive = false;
+                restartTimer();
             }
-            
-        }
-        
 	}
 
     
