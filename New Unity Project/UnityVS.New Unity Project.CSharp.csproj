@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
@@ -66,14 +63,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BumperScript.cs" />
-    <Compile Include="Assets\Scripts\CameraScript.cs" />
-    <Compile Include="Assets\Scripts\ChainLinkScript.cs" />
     <Compile Include="Assets\Scripts\ControllerScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\BumperScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\ChainLinkScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\SpawnScript.cs" />
     <Compile Include="Assets\Scripts\RendererExtensions.cs" />
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
-    <Compile Include="Assets\Scripts\SpawnScript.cs" />
-    <Compile Include="Assets\Scripts\TimerScript.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\TimerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />

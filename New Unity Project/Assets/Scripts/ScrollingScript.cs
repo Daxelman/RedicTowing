@@ -48,8 +48,7 @@ public class ScrollingScript : MonoBehaviour {
          * all the possible scrolling conditions
          */
 
-        backgroundPart = backgroundPart.OrderBy(
-            t => t.position.y).ToList();
+        backgroundPart = backgroundPart.OrderBy( t => t.position.y).ToList();
     }
 
     void Update()
