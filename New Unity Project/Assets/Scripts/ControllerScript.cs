@@ -6,8 +6,6 @@ public class ControllerScript : MonoBehaviour {
     public Sprite leftTruck;
     public Sprite rightTruck;
     public Sprite forwardTruck;
-
-    public int speed = 20;
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,39 +18,37 @@ public class ControllerScript : MonoBehaviour {
             GetComponent<SpriteRenderer>().sprite = leftTruck;
         if (dir.x < 0)
             GetComponent<SpriteRenderer>().sprite = rightTruck;
-
+ 
         if (dir.sqrMagnitude > 1)
             dir.Normalize();
 
-        
         dir *= Time.deltaTime;
         
-
-
         // keyboard controls
         if (Input.GetKey(KeyCode.UpArrow)) // up
         {
-            this.GetComponent<SpriteRenderer>().sprite = forwardTruck;
-            transform.Translate(0, speed * Time.deltaTime, 0);
+            GetComponent<SpriteRenderer>().sprite = forwardTruck;
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 1), ForceMode2D.Impulse);
         }
         if (Input.GetKey(KeyCode.DownArrow)) // down
         {
-            this.GetComponent<SpriteRenderer>().sprite = forwardTruck;
-            transform.Translate(0, -speed*Time.deltaTime, 0);
+            GetComponent<SpriteRenderer>().sprite = forwardTruck;
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -1), ForceMode2D.Impulse);
+            
         }
         if (Input.GetKey(KeyCode.LeftArrow)) // left
-        {
-            transform.Translate(-speed * Time.deltaTime, 0, 0);
-            this.GetComponent<SpriteRenderer>().sprite = leftTruck;
+        { 
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(-1, 0), ForceMode2D.Impulse);
+            GetComponent<SpriteRenderer>().sprite = leftTruck;
         }
         if (Input.GetKey(KeyCode.RightArrow)) // right
         {
-            transform.Translate(speed * Time.deltaTime, 0, 0);
-            this.GetComponent<SpriteRenderer>().sprite = rightTruck;
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 0), ForceMode2D.Impulse);
+            GetComponent<SpriteRenderer>().sprite = rightTruck;
         }
         
         if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
-            this.GetComponent<SpriteRenderer>().sprite = forwardTruck;
+            GetComponent<SpriteRenderer>().sprite = forwardTruck;
 
 
 	}
