@@ -25,7 +25,7 @@ public class TextureAtlasSlicer : EditorWindow
 
         //valid only if the texture type is 'sprite' or 'advanced'.
         return textureImporter && textureImporter.textureType == TextureImporterType.Sprite ||
-               textureImporter.textureType == TextureImporterType.Advanced;
+               textureImporter.textureType == TextureImporterType.Default;
     }
 
     public TextureImporter importer;
